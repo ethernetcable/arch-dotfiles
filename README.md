@@ -1,19 +1,18 @@
-arch-dotfiles
+## arch-dotfiles
 
-programs
+## programs
 
 i3-gaps
 
-urxvt, vim, vtop, irssi, lynx, feh, scrot, playerctl, cower, ipfs, neofetch, npm, pywal
+urxvt, vim, vtop, irssi, lynx, feh, scrot, playerctl, cower, ipfs, neofetch, npm, pywal, mpv
 
 qutebrowser, firefox, spotify
 
 python, go
 
-future:
+## future:
 
 mpd + ncmpcpp
 ranger
 polybar
 neomutt
-compton
