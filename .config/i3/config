@@ -99,7 +99,7 @@ set $ws1  "1: qt"
 set $ws2  "2: "
 set $ws3  "3: "
 set $ws4  "4: irc"
-set $ws5  "5"
+set $ws5  "5: yt"
 set $ws6  "6"
 set $ws7  "7"
 set $ws8  "8"
@@ -174,9 +174,12 @@ bindsym $mod+p exec playerctl --player=spotify play-pause
 bindsym $mod+n exec playerctl --player=spotify next
 
 # things
-# for_window [class='qutebrowser'] move container to workspace $ws1
-# for_window [class='spotify'] move container to workspace $ws3
+assign [class='qutebrowser'] $ws1
+assign [class='Spotify' instance='spotify'] $ws3
+assign [instance='irssi'] $ws4 
+assign [class='irssi'] $ws5
 
 # run on startup
 exec_always feh --bg-fill ~/images/backgrounds/fuji2.jpg
 exec --no-startup-id unclutter -idle 2 
+

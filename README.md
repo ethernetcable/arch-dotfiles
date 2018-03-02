@@ -6,7 +6,7 @@ i3-gaps
 
 urxvt, vim, vtop, irssi, lynx, feh, scrot, playerctl, cower, ipfs, neofetch, npm, pywal, mpv
 
-qutebrowser, firefox, spotify
+qutebrowser, firefox, spotify, evince
 
 python, go
 

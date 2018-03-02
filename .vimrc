@@ -1,3 +1,11 @@
+" plugins
+call plug#begin('~/.vim/plugs')
+
+" Plug 'powerline/powerline'
+Plug 'vim-scripts/indentpython.vim'
+
+call plug#end()
+
 " random stuff
 syntax enable
 set number relativenumber
@@ -28,3 +36,11 @@ set hlsearch
 nnoremap j gj
 nnoremap k gk
 inoremap jk <esc>
+
+"split navigation
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+
