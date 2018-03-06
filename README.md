@@ -6,6 +6,8 @@ i3-gaps
 
 urxvt, vim, vtop, irssi, lynx, feh, scrot, playerctl, cower, ipfs, neofetch, npm, pywal, mpv
 
+gdb, strace, ltrace
+
 qutebrowser, firefox, spotify, evince
 
 python, go
@@ -20,3 +22,4 @@ polybar
 
 neomutt
 
+radare

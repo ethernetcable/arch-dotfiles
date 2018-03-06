@@ -1,6 +1,8 @@
 urxvt.font: xft:monospace:size=12
 urxvt.scrollBar: false
 
+! custom colours - purpley
+
 *background: #282828
 *foreground: #F2F1F0
 
