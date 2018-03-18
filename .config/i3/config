@@ -181,5 +181,4 @@ assign [class='irssi'] $ws5
 
 # run on startup
 exec_always feh --bg-fill ~/images/backgrounds/fuji2.jpg
-exec --no-startup-id unclutter -idle 2 
-
+exec --no-startup-id unclutter -grab -idle 1

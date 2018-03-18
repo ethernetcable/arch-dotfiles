@@ -3,42 +3,40 @@ urxvt.scrollBar: false
 
 ! custom colours - purpley
 
-*background: #282828
-*foreground: #F2F1F0
-
 ! special
-*.foreground:   #f2f1f0
-*.background:   #1e173b
-*.cursorColor:  #f2f1f0
+*.foreground:   #c0c5ce
+*.background:   #2e2b3b
+*.cursorColor:  #c0c5ce
 
 ! black
-*.color0:       #222222
-*.color8:       #666666
+*.color0:       #2b303b
+*.color8:       #65737e
 
 ! red
-*.color1:       #e84f4f
-*.color9:       #d23d3d
+*.color1:       #bf616a
+*.color9:       #bf616a
 
 ! green
-*.color2:       #b7ce42
-*.color10:      #bde077
+*.color2:       #a3be8c
+*.color10:      #a3be8c
 
 ! yellow
-*.color3:       #a651f8
-*.color11:      #f07746
+*.color3:       #ebcb8b
+*.color11:      #ebcb8b
 
 ! blue
-*.color4:       #66aabb
-*.color12:      #aaccbb
+*.color4:       #8fa1b3
+*.color12:      #8fa1b3
 
 ! magenta
-*.color5:       #b7416e
-*.color13:      #e16a98
+*.color5:       #b48ead
+*.color13:      #b48ead
 
 ! cyan
-*.color6:       #6d878d
-*.color14:      #79a3ab
+*.color6:       #96b5b4
+*.color14:      #96b5b4
 
 ! white
-*.color7:       #f2f1f0
-*.color15:      #f2f1f0
+*.color7:       #c0c5ce
+*.color15:      #eff1f5
+
