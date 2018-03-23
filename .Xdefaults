@@ -1,11 +1,12 @@
-urxvt.font: xft:monospace:size=12
-urxvt.scrollBar: false
+URxvt.font: xft:monospace:size=11
+URxvt.scrollBar: false
+URxvt.internalBorder: 34
 
-! custom colours - purpley
+! ocean.dark from terminal.sexy with some added purple
 
 ! special
 *.foreground:   #c0c5ce
-*.background:   #2e2b3b
+*.background:   #292634
 *.cursorColor:  #c0c5ce
 
 ! black

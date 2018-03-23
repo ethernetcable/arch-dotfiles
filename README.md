@@ -4,7 +4,8 @@
 
 i3-gaps
 
-urxvt, vim, vtop, irssi, w3m,  lynx, feh, scrot, playerctl, cower, ipfs, neofetch, npm, mpv, screen, ranger
+urxvt, vim, vtop, irssi, w3m, lynx, feh, scrot, playerctl, cower, ipfs, neofetch, npm, mpv, screen, ranger,
+ncmpcpp + mopidy + spotify extension
 
 gdb, strace, ltrace
 
@@ -15,8 +16,6 @@ python, go
 irssi scripts - usercount, awl
 
 ## future:
-
-mpd + ncmpcpp
 
 polybar
 
