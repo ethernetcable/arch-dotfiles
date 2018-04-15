@@ -1,8 +1,8 @@
 " plugins
 call plug#begin('~/.vim/plugs')
 
-" Plug 'powerline/powerline'
 Plug 'vim-scripts/indentpython.vim'
+Plug 'junegunn/goyo.vim'
 
 call plug#end()
 

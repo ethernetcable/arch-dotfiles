@@ -1,12 +1,13 @@
-URxvt.font: xft:Inconsolata-Regular:size=13
+URxvt.font: xft:Inconsolata-Regular:size=11
 URxvt.scrollBar: false
 URxvt.internalBorder: 34
+URxvt*transparent:true
+URxvt*shading: 30
 
-! ocean.dark from terminal.sexy with some added purple
-
+! ocean dark + green
 ! special
-*.foreground:   #c0c5ce
-*.background:   #292634
+*.foreground:   #46d546
+*.background:   #2b303b
 *.cursorColor:  #c0c5ce
 
 ! black
@@ -37,7 +38,6 @@ URxvt.internalBorder: 34
 *.color6:       #96b5b4
 *.color14:      #96b5b4
 
-! white
-*.color7:       #c0c5ce
-*.color15:      #eff1f5
-
+! white (green)
+*.color7:       #46d546
+*.color15:      #46d546

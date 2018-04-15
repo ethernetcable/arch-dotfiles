@@ -7,7 +7,7 @@ i3-gaps
 urxvt, vim, vtop, irssi, w3m, lynx, feh, scrot, playerctl, cower, ipfs, neofetch, npm, mpv, screen, ranger,
 ncmpcpp + mopidy + spotify extension
 
-gdb, strace, ltrace
+gdb, strace, ltrace, radare2
 
 qutebrowser, firefox, spotify, evince
 
@@ -21,4 +21,4 @@ polybar
 
 neomutt
 
-radare2
+newsboaat
