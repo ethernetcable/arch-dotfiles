@@ -4,7 +4,7 @@
 
 i3-gaps
 
-urxvt, vim, vtop, irssi, w3m, lynx, feh, scrot, playerctl, cower, ipfs, neofetch, npm, mpv, screen, ranger,
+urxvt, vim, i3blocks, vtop, irssi, w3m, lynx, feh, scrot, playerctl, cower, ipfs, neofetch, npm, mpv, screen, ranger,
 ncmpcpp + mopidy + spotify extension
 
 gdb, strace, ltrace, radare2
@@ -21,4 +21,4 @@ polybar
 
 neomutt
 
-newsboaat
+newsboat
