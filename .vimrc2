@@ -1,0 +1,74 @@
+execute pathogen#infect()
+
+" --- lightline.vim
+set laststatus=2
+let g:lightline = {
+      \ 'colorscheme': 'seoul256',
+      \ }
+
+
+" --- random stuff
+syntax enable
+set number relativenumber
+set encoding=utf-8
+filetype indent plugin on
+set fileencoding=utf-8
+highlight LineNr ctermfg=darkgrey
+
+" tabs and spaces
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set smarttab
+
+" command autocompletion
+set wildmenu
+
+" don't redraw during macros
+set lazyredraw
+
+" show matching parentheses and stuff
+set showmatch
+
+" searching
+set incsearch
+set hlsearch
+
+
+" --- remaps
+
+" move vertically by visual line
+nnoremap j gj
+nnoremap k gk
+
+" the escape key is too far away
+inoremap jk <esc>
+
+" common commands
+inoremap jj <esc>:w<cr>
+nnoremap q :q<cr>
+nnoremap wq :wq<cr>
+
+" better split navigation
+nnoremap <C-J> <C-W>j
+nnoremap <C-K> <C-W>k
+nnoremap <C-L> <C-W>l
+nnoremap <C-H> <C-W>h
+
+" +/- resize splits by 10 lines
+nnoremap <silent> + :exe "resize " . (winheight(0) + 10)<CR>
+nnoremap <silent> - :exe "resize " . (winheight(0) - 10)<CR>
+" nnoremap <silent> <Leader>+ :exe \"resize " . (winheight(0) * 3/2)<CR>
+" nnoremap <silent> <Leader>- :exe \"resize " . (winheight(0) * 2/3)<CR>
+
+" buffers
+nnoremap <C-N> :bnext<CR>
+nnoremap <C-P> :bprev<CR>
+
+
+" --- splits
+
+" new splits created below/right of the current window
+set splitbelow
+set splitright
